@@ -1,11 +1,9 @@
-import geometry.Reactangle;
+import geometry.Square;
 
 public class Main {
     public static void main(String[] args) {
-        Reactangle reactangle = new Reactangle( 10, 5);
-
-        System.out.println("Pole prostokata: " + reactangle.calculateArea());
-        System.out.println("Obwód prostokąta: " + reactangle.calculatePerimeter());
-
+        Square square = new Square(9);
+        System.out.println("Pole kwadratu: " + square.calculateArea());
+        System.out.println("Obwód kwadratu: " + square.calculatePerimeter());
     }
 }
